@@ -51,7 +51,7 @@ button:focus{ outline: 0;}
   <p v-if="hobbyWasDeleted">Hobby was deleted!</p>
   <p 
   :style="{color:hobbies.length > 2 ? 'tomato' : 'black'}">
-  Hobbies: {{hobbies.length}}</p>
+  Hobbies: {{hobbies.length}} <span>(click a hobby to remove it)</span></p>
   <ul>
     <!-- <li 
     v-for="hobby in hobbies"
